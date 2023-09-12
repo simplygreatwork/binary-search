@@ -5,4 +5,4 @@ git clone git@github.com:simplygreatwork/binary-search.git
 
 # Run
 
-Load main.html in your browser and the view console output.
+Load /examples/main.html in your browser and the view console output.
