@@ -1,0 +1,7 @@
+{
+	"imports": {
+		"binary-search": "./source/binary_search.js",
+		"html-console": "../html-console/module.js",
+		"test-suite": "../test-suite/module.js"
+	}
+}
