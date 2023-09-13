@@ -6,11 +6,15 @@
 	</head>
 	<body>
 		<script type="importmap">{"imports": {
-			"binary-search": "../module.js"
+			"binary-search": "../source/binary_search.js",
+			"html-console": "../../../html-console/module.js"
 		}}</script>
 		<script type="module">
 			
 			import { binary_search } from 'binary-search'
+			import { console_init } from 'html-console'
+			
+			console_init('body')
 			
 			let array = []
 			Array.from({ length: 26 }, function(each, index) {
